@@ -20,7 +20,7 @@ h1 {
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 44px;
 }
 
 h3 {
@@ -68,6 +68,10 @@ p {
 
 .btn {
   background-color: var(--primary-color) !important;
+}
+
+.contain-text {
+  padding: 112px 63px;
 }
 
 /*.homepage-link {
