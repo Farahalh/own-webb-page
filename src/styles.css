@@ -64,6 +64,10 @@ img{
   text-transform: capitalize;
 }
 
+.contactMe {
+  padding-bottom: 64px;
+}
+
 .contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
@@ -106,10 +110,18 @@ img{
   text-decoration: none;
 }
 
+.phone {
+  margin-bottom: 0;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
 .icons{
-  width: 36px;
-  height: 36px;
-  
+  width: 74px;
 }
 
 .email-link:hover {
