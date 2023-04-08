@@ -1,11 +1,16 @@
 :root {
+  --bg-color: #faf4f0;
+  --font-family: Helvetica, sans-serif;
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --rectangle-color: #473262;
+  --rectangle-shadow-color: rgb(219, 197, 248);
 }
 
 body {
   margin-top: 100px;
+  font-family: var(--font-family);
 }
 
 h1,
@@ -33,6 +38,10 @@ p {
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
+}
+
+img{
+  color: var(--rectangle-color);
 }
 
 .navbar {
@@ -97,6 +106,12 @@ p {
   text-decoration: none;
 }
 
+.icons{
+  width: 36px;
+  height: 36px;
+  
+}
+
 .email-link:hover {
   text-decoration: underline;
 }
@@ -114,6 +129,10 @@ p {
 
   p {
     text-align: center;
+  }
+
+  a {
+    font-size: 16px;
   }
 
   .btn {
