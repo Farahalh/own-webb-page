@@ -87,7 +87,7 @@ img{
   padding: 112px 63px;
 }
 
-/*.homepage-link {
+.homepage-link {
   color: var(--primary-color);
   text-align: center;
   display: block;
@@ -100,7 +100,8 @@ img{
 
 .about-paragraphs p {
   margin: 10px;
-}*/
+  padding:60px;
+}
 
 .email-link {
   display: flex;
