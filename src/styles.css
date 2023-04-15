@@ -21,7 +21,7 @@ h3 {
 }
 
 h1 {
-  font-size: 70px;
+  font-size: 64px;
 }
 
 h2 {
@@ -45,9 +45,11 @@ img {
 }
 
 .navbar {
+  background: #dcd6f7;
   position: fixed;
   top: 0px;
   width: 100%;
+  z-index: 1;
 }
 
 .navigation-links {
@@ -64,27 +66,44 @@ img {
   text-transform: capitalize;
 }
 
+.hero {
+  background-color: #a6b1e1;
+  color: white !important;
+  padding: 64px 0;
+}
+
+.heroHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 80px;
+}
+
 .contactMe {
   padding-bottom: 64px;
 }
 
 .contact-link {
-  background: var(--primary-color);
+  background: #dcd6f7;
   box-shadow: var(--box-shadow);
   color: white;
 }
 
 .about-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  color: #dcd6f7;
+  background-color: white !important;
+  border: 1px solid #dcd6f7;
+  box-shadow: var(--box-shadow);
 }
 
 .btn {
-  background-color: var(--primary-color) !important;
+  background-color: #dcd6f7 !important;
+  box-shadow: var(--box-shadow);
+  border: none;
 }
 
 .contain-text {
-  padding: 112px 63px;
+  padding: 100px 63px;
 }
 
 .homepage-link {
@@ -129,6 +148,10 @@ img {
   width: 74px;
 }
 
+.container {
+margin: 64px 0;
+}
+
 .container h2 {
   text-align: left;
 }
@@ -161,4 +184,8 @@ img {
   .index-img {
     display: none;
   }
+
+  .contain-text {
+  padding: 50px 63px;
+}
 }
