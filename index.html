@@ -20,10 +20,16 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://kit.fontawesome.com/ddc3ee268a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/styles.css" />
@@ -31,9 +37,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
-        <a class="navbarLogo navbar-brand" href="index.html"
-          ><img src="images/logo.svg" alt="logo" class="logo"
-        /></a>
+        <a class="initials navbar-brand" href="index.html">FA</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -63,26 +67,23 @@
       </div>
     </nav>
 
-    <header class="hero">
-      <div class="heroHeader">
-        <div>
+    <hero>
+      <div class="heroRighLeft">
+        <div class="heroRight">
           <h2>👋 Hi I am</h2>
           <h1>Farah Alhaddad</h1>
           <h3>Front-end developer, based in Gothenburg, Sweden</h3>
         </div>
-        <div class="heroImg">
-          <img src="images/heroImage.svg" alt="profile picture" />
+        <div class="navigation-links mb-5">
+          <a href="about.html#contact" class="contact-link" id="contact-link"
+            >Contact me</a
+          >
+          <a href="about.html" class="about-link">About me</a>
         </div>
       </div>
-      <div class="navigation-links mb-5">
-        <a href="about.html#contact" class="contact-link" id="contact-link"
-          >Contact me</a
-        >
-        <a href="about.html" class="about-link">About me</a>
-      </div>
-    </header>
+    </hero>
 
-    <div class="container">
+    <div class="workContainer">
       <div class="row">
         <div class="col-sm-6">
           <img
@@ -94,13 +95,13 @@
         <div class="col-sm-6">
           <div class="contain-text">
             <h2 class="mb-3">Gothenburg City</h2>
-            <p class="mb-3">
+            <p class="projectText mb-3">
               Gothenburg city landing page. Coded with HTML, CSS and JavaScript.
             </p>
             <a
               href="https://stellular-jelly-b1319e.netlify.app/"
               target="_blank"
-              class="btn btn-primary pt-3 pb-3"
+              class="projectBtns btn btn-primary pt-3 pb-3"
               title="Gothenburg City Landingpage Link"
               >Go to Page</a
             >
@@ -112,14 +113,14 @@
         <div class="col-sm-6">
           <div class="contain-text">
             <h2 class="mb-3">Weather app</h2>
-            <p class="mb-3">
+            <p class="projectText mb-3">
               Weather Application. Coded with HTML, CSS, JavaScript.
               <br />Linked to SheCodes Weather API.
             </p>
             <a
               href="https://dazzling-fox-d3f6a7.netlify.app/"
               target="_blank"
-              class="btn btn-primary pt-3 pb-3 shadow"
+              class="projectBtns btn btn-primary pt-3 pb-3 shadow"
               title="Weather App Link"
               >Launch Application</a
             >
@@ -145,13 +146,13 @@
         <div class="col-sm-6">
           <div class="contain-text">
             <h2 class="mb-3">Bachata Landing app</h2>
-            <p class="mb-3">
+            <p class="projectText mb-3">
               Bachata Landing Page. Coded with HTML, CSS, JavaScript.
             </p>
             <a
               href="https://whimsical-panda-0a14e7.netlify.app/"
               target="_blank"
-              class="btn btn-primary pt-3 pb-3 shadow"
+              class="projectBtns btn btn-primary pt-3 pb-3 shadow"
               title="Bachata Landingpage Link"
               >Go to Page</a
             >
@@ -163,14 +164,14 @@
         <div class="col-sm-6">
           <div class="contain-text">
             <h2 class="mb-3">World Clock app</h2>
-            <p class="mb-3">
+            <p class="projectText mb-3">
               World Clock Application. Coded with HTML, CSS, JavaScript. Linked
               to moment.js.
             </p>
             <a
               href="https://hilarious-torrone-3d0f81.netlify.app/"
               target="_blank"
-              class="btn btn-primary pt-3 pb-3 shadow"
+              class="projectBtns btn btn-primary pt-3 pb-3 shadow"
               title="World Clock App Link"
               >Launch Application</a
             >
@@ -184,6 +185,31 @@
           />
         </div>
       </div>
+
+      <footer>
+            <div id="contact" class="contactMe d-flex justify-content-center mb-3">
+      <h2>📮 Contact me</h2>
+      </div>
+        <div class="d-flex justify-content-center mb-3">
+          <a href="mailto:farah.alhaddad@hotmail.com" class="email-link">
+            farah.alhaddad@hotmail.com
+          </a>
+        </div>
+        <div class="phone d-flex justify-content-center mb-3">
+          <p class="phone">+46 70 090 27 89</p>
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a href="https://github.com/Farahalh" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/farah-alhaddad-a8204069/"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
