@@ -8,10 +8,16 @@
   --rectangle-shadow-color: rgb(219, 197, 248);
 }
 
+* {
+  margin: 0;
+}
+
 body {
-  width: 100%;
-  max-width: 1312px;
+  background-color: #faf4f0;
+  display: flex;
+  flex-direction: column;
   align-items: center;
+
   background: var(--bg-color);
   margin-top: 100px;
   font-family: var(--font-family);
@@ -68,11 +74,15 @@ hero .heroRightLeft {
   z-index: 10;
 }
 
+.heroRight {
+  margin-top: 40px;
+}
+
 .navigation-links {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 0 40px;
+  margin: 40px;
 }
 
 .navigation-links a {
@@ -148,8 +158,8 @@ hero .heroRightLeft {
 }
 
 .about-paragraphs {
-  display: flex;
-  margin: 30px 0;
+  width: 100%;
+  max-width: 1312px;
 }
 
 .about-paragraphs p {
