@@ -8,10 +8,6 @@
   --rectangle-shadow-color: rgb(219, 197, 248);
 }
 
-* {
-  margin: 0;
-}
-
 body {
   background-color: #faf4f0;
   display: flex;
@@ -49,14 +45,14 @@ p {
   line-height: 1.5;
 }
 
-hero {
+header {
   width: 100%;
   max-width: 1312px;
   padding-right: 32px;
   padding-left: 32px;
 }
 
-hero .heroRightLeft {
+header .heroRightLeft {
   width: 100%;
   max-width: 1312px;
   display: flex;
@@ -70,7 +66,6 @@ hero .heroRightLeft {
   position: fixed;
   top: 0px;
   width: 100%;
-  max-width: 1312px;
   z-index: 10;
 }
 
@@ -175,8 +170,6 @@ hero .heroRightLeft {
 }
 
 .workContainer {
-  width: 100%;
-  max-width: 1312px;
   padding-right: 32px;
   padding-left: 32px;
   align-items: center;
@@ -189,7 +182,6 @@ p {
 
 footer {
   width: 100%;
-  max-width: 1312px;
   background-color: var(--primary-color);
   margin: 60px 0;
   padding: 40px 0;
@@ -200,8 +192,6 @@ footer .contactMe {
 }
 
 footer .contact-box {
-  width: 100%;
-  max-width: 1312px;
   background: var(--secondary-color);
   border-radius: 10px;
 }
@@ -241,7 +231,7 @@ footer .social-links a:hover {
   background: var(--secondary-color);
 }
 
-@media (max-width: 900px) {
+@media (max-width: 960px) {
   h1 {
     font-size: 48px;
     line-height: 1.5;
@@ -249,11 +239,6 @@ footer .social-links a:hover {
 
   h2 {
     font-size: 32px;
-    text-align: center !important;
-  }
-
-  p {
-    text-align: center;
   }
 
   a {
@@ -278,7 +263,7 @@ footer .social-links a:hover {
     font-size: 16px;
   }
 
-    footer .phone {
+  footer .phone {
     font-size: 16px;
   }
 }
