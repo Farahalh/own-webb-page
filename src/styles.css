@@ -73,16 +73,6 @@ header .heroRightLeft {
   margin-top: 40px;
 }
 
-.shecodesLink {
-  color: black;
-  text-decoration: none;
-}
-
-.shecodesLink:hover {
-  color: var(--primary-color);
-  text-decoration: underline;
-}
-
 .navigation-links {
   display: flex;
   flex-direction: row;
@@ -178,6 +168,17 @@ header .heroRightLeft {
 .workContainer h2,
 p {
   text-align: left;
+}
+
+.about-paragraphs a {
+    color: black;
+    font-weight: bold;
+  text-decoration: none;
+}
+
+.about-paragraphs a:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
 }
 
 footer {
